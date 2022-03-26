@@ -69,6 +69,8 @@ juce::Timer
     
     void timerCallback() override;
     
+    void updateChain();
+    
     void paint(juce::Graphics& g) override;
 private:
     SimpleEQAudioProcessor& audioProcessor;
